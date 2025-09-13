@@ -1,13 +1,11 @@
+import Signin from "./components/Signin"
 
 function App() {
 
   return (
-    <>
-      
-      <p className="bg-amber-950">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="flex items-center h-screen w-screen justify-center bg-gray-100">
+      <Signin/>
+    </div>
   )
 }
 
