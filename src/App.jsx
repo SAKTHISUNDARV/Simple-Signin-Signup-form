@@ -1,10 +1,13 @@
-import Signin from "./components/Signin"
+import SignIn from "./components/Signin"
+import SignUp from "./components/SignUp"
 
 function App() {
 
   return (
-    <div className="flex items-center h-screen w-screen justify-center bg-gray-100">
-      <Signin/>
+  
+    <div className="flex items-center h-screen w-screen justify-center sm:bg-gray-100">
+      {/* <SignIn/> */}
+      <SignUp/>
     </div>
   )
 }
